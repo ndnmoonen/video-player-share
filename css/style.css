@@ -1,0 +1,322 @@
+.clear-both {
+    clear: both;
+}
+
+
+/* main */
+
+main {
+    width: 100%;
+    height: auto;
+    /* alleen voor video ding ff erbij gezet deze margin */
+    margin-top: 200px;
+}
+
+
+/* video playlist play skip */
+
+.vid-playlist {
+    width: 100%;
+    height: 1168px;
+    margin: auto;
+    margin-top: -90px;
+}
+
+.vid-playlist h3 {
+    width: 600px;
+    font-size: 3.125em;
+    color: black;
+    font-family: Archivo, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.vid-playlist p {
+    font-size: 1.25em;
+    color: black;
+    font-family: Archivo, sans-serif;
+    text-align: center;
+}
+
+.vid-playlist img {
+    width: 427px;
+    height: 266px;
+    display: block;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-left: 40%;
+}
+
+.video {
+    width: 1081px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 33px;
+    position: relative;
+}
+
+#video {
+    width: 976px;
+    margin: 0 auto;
+    margin-left: 52.5px;
+    margin-bottom: 47px;
+}
+
+.circle-skip {
+    position: absolute;
+    margin: 0 auto;
+    margin-left: 987px;
+    margin-top: -310px;
+    width: 88px;
+    height: 88px;
+    background-color: white;
+    border-radius: 60px;
+}
+
+.skip-btn {
+    margin: 9px 0px 0px 9px;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.skip-btn img {
+    margin: 0 auto;
+    margin-left: -8px;
+    margin-top: -3px;
+    width: 70px;
+    height: 70px;
+}
+
+.buttons-videos button {
+    width: 254px;
+    height: 70px;
+    background-color: white;
+    border: 5px solid rgb(80, 65, 255);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.buttons-videos p {
+    color: rgb(80, 65, 255);
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.5em;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.vid-button {
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.vid-button img {
+    width: 16px;
+    height: 22px;
+    float: right;
+    margin-top: 3px;
+}
+
+.vid-button {
+    width: 183px;
+    height: 27px;
+}
+
+
+/* breakpoints */
+
+@media only screen and (max-width: 1240px) {
+    .video {
+        width: 900px;
+    }
+    #video {
+        width: 800px;
+    }
+    .circle-skip {
+        margin-left: 810px;
+    }
+    .buttons-videos {
+        width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .video {
+        width: 700px;
+    }
+    #video {
+        width: 600px;
+    }
+    .circle-skip {
+        margin-left: 610px;
+        margin-top: -260px;
+    }
+    .buttons-videos {
+        width: 600px;
+        margin-left: 80px;
+    }
+    .vid-playlist {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    /*mobile*/
+    body {
+        min-width: 320px;
+    }
+    .vid-playlist img {
+        width: 200px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: -250px;
+    }
+    .vid-playlist h3 {
+        font-size: 1.3em;
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .vid-playlist p {
+        width: 300px;
+        font-size: 0.55em;
+        margin: 0 auto;
+    }
+    .video {
+        width: 500px;
+    }
+    #video {
+        margin: 0 auto;
+        width: 500px;
+    }
+    .circle-skip {
+        margin-left: 235px;
+        margin-top: -20px;
+        width: 35px;
+        height: 35px;
+    }
+    .skip-btn {
+        margin-left: 2.7px;
+        margin-top: 2.75px;
+        width: 30px;
+        height: 30px;
+    }
+    .skip-btn img {
+        margin-left: -6px;
+        margin-top: -1px;
+        width: 30px;
+        height: 30px;
+    }
+    .buttons-videos {
+        margin: 0 auto;
+        min-width: 500px;
+        height: 70px;
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+    .buttons-videos button {
+        display: inline-block;
+        width: 100px;
+        height: 35px;
+        border: 3px solid rgb(80, 65, 255);
+    }
+    .buttons-videos p {
+        margin: 0 auto;
+        margin-top: -5px;
+        margin-left: 5px;
+        width: auto;
+    }
+    .vid-button {
+        width: auto;
+    }
+    .buttons-videos img {
+        width: 11px;
+        height: 15px;
+        margin-top: -8px;
+        margin-right: 3px;
+        float: right;
+    }
+    .buttons-videos {
+        margin: 0 auto;
+        margin-top: -30px;
+        width: 230px;
+    }
+    .vid-playlist {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    /*mobile small*/
+    .video {
+        width: 300px;
+    }
+    #video {
+        margin: 0 auto;
+        width: 300px;
+    }
+    .circle-skip {
+        margin-left: 135px;
+        margin-top: -20px;
+        width: 35px;
+        height: 35px;
+    }
+    .skip-btn {
+        margin-left: 2.7px;
+        margin-top: 2.75px;
+        width: 30px;
+        height: 30px;
+    }
+    .skip-btn img {
+        margin-left: -6px;
+        margin-top: -1px;
+        width: 30px;
+        height: 30px;
+    }
+    .buttons-videos {
+        width: 300px;
+        margin-left: 80px;
+        padding-top: 60px;
+    }
+    .buttons-videos button {
+        width: 100px;
+        height: 35px;
+        border: 3px solid rgb(80, 65, 255);
+    }
+    .buttons-videos p {
+        margin: 0 auto;
+        margin-top: -5px;
+        margin-left: 5px;
+        width: auto;
+    }
+    .vid-button {
+        width: auto;
+    }
+    .buttons-videos img {
+        width: 11px;
+        height: 15px;
+        margin: 0 auto;
+        margin-top: -8px;
+        margin-right: 3px;
+        float: right;
+    }
+    .buttons-videos {
+        display: block;
+        min-width: 200px;
+        margin: 0 auto;
+        margin-top: -30px;
+        margin-left: 15px;
+        width: 230px;
+        height: 100px;
+    }
+    .vid-playlist {
+        height: auto;
+    }
+}

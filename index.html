@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>City Guide</title>
+</head>
+
+<body>
+
+    <main>
+
+        <article class="vid-playlist">
+            <h3>Look at all those happy smiles</h3>
+            <p>Follow Mister Guide around the globe</p>
+
+            <div class="video">
+                <video id="video" muted loop>
+                    <source src="img/video/maastricht.mp4" type="video/mp4" id="source">
+                    <source src="img/video/aachen.mp4" type="video/mp4" id="source">
+                    <source src="img/video/schimmert.mp4" type="video/mp4" id="source">
+                    <source src="img/video/newyork.mp4" type="video/mp4" id="source">
+                </video>
+
+                <div class="circle-skip">
+                    <button id="skip" class="skip-btn">
+                        <img src="img/icons/skip_icon.png">
+                    </button>
+                </div>
+
+
+                <div class="buttons-videos">
+                    <button class="button1">
+                        <div class="vid-button">
+                            <p>Maastricht</p>
+                            <img id="play1" src="img/icons/play_icon.png" alt="play and pause">
+                            <div class="clear-both"></div>
+                        </div>
+                    </button>
+                    <button class="button2">
+                        <div class="vid-button">
+                            <p>Aachen</p>
+                            <img id="play2" src="img/icons/play_icon.png" alt="play and pause">
+                            <div class="clear-both"></div>
+                        </div>
+                    </button>
+                    <button class="button3">
+                        <div class="vid-button">
+                            <p>Schimmert</p>
+                            <img id="play3" src="img/icons/play_icon.png" alt="play and pause">
+                            <div class="clear-both"></div>
+                        </div>                    </button>
+                    <button class="button4">
+                        <div class="vid-button">
+                            <p>NewYork</p>
+                            <img id="play4" src="img/icons/play_icon.png" alt="play and pause">
+                            <div class="clear-both"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+
+        </article>
+
+    </main>
+
+    <!-- ik weet niet meer welke js wat doet maar ik denk dat je alleen de onderste nodig hebt
+    die wat linkt naar je eigen script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
